@@ -19,6 +19,8 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@ctrl/ngx-headroom": "^3.0.0",
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "@types/aos": "^3.0.2",
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
