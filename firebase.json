@@ -1,0 +1,14 @@
+{
+  "hosting": [
+    {
+      "target": "khuongnm",
+      "public": "docs",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "cv-khuongnm",
+      "public": "docs",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "cv-khuongnm"
+  },
+    "targets": {
+    "cv-khuongnm": {
+      "hosting": {
+        "khuongnm": [
+          "khuongnm"
+        ],
+        "cv-khuongnm": [
+          "cv-khuongnm"
+        ]
+      }
+    }
+  }
+}
