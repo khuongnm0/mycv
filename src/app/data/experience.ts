@@ -69,5 +69,15 @@ export const EXPERIENCE_DATA = [
           "https://www.fujitsu.com/global/about/resources/news/press-releases/2016/1017-02.html"
       }
     ]
+  },
+  {
+    time: "2010 - 2015 ",
+    company: "FPT University HCM",
+    projects: [
+      {
+        name: "Bachelor of Software Engineering",
+        technologies: ["C#.NET", "JAVA", "jQuery", "MSSQL"]
+      }
+    ]
   }
 ];

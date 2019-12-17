@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:prod": "firebase deploy --token 1//0gkCAkdDsEAj7CgYIARAAGBASNwF-L9IriuxoL9uivb3ec4MOZLGFN0MCMjGWahj6wNpSwxDgLFTsSKZuOQIqyv9aLr8BHa0sy1E --project cv-khuongnm --non-interactive --only hosting:khuongnm"
+    "deploy": "ng build --prod && firebase deploy --token 1//0gkCAkdDsEAj7CgYIARAAGBASNwF-L9IriuxoL9uivb3ec4MOZLGFN0MCMjGWahj6wNpSwxDgLFTsSKZuOQIqyv9aLr8BHa0sy1E --project cv-khuongnm --non-interactive --only hosting:khuongnm"
   },
   "private": true,
   "dependencies": {

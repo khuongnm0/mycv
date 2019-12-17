@@ -6,7 +6,7 @@ export class MileStone {
 
 export class Project {
   public name: string;
-  public role: string;
+  public role?: string;
   public technologies?: Array<string>;
-  public description: string;
+  public description?: string;
 }
