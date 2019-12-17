@@ -16,12 +16,12 @@ export const SKILLS_DATA = [
     value: 75
   },
   {
-    name: "Angular",
-    value: 85
+    name: "Angular JS",
+    value: 75
   },
   {
-    name: "Firebase",
-    value: 75
+    name: "Angular",
+    value: 85
   },
   {
     name: "GIT",

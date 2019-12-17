@@ -8,14 +8,16 @@ export const EXPERIENCE_DATA = [
         role: "Lead Front-end Team",
         technologies: ["Angular", "SSR", "PWA", "Google Cloud", "Firebase"],
         description:
-          "<p>Develop web-app to help people sharing their's travel stories and idea.</p>"
+          "<p>Develop web-app to help people sharing their's travel stories and experiences.</p>",
+        reference: "https://travel.ourbetterworld.org/"
       },
       {
         name: "Wecheer.IO",
         role: "Front-end Developer",
         technologies: ["VueJS", "FeatherJS", "Lavarel"],
         description:
-          "<p>Develop CMS UI. Working with realtime data and map.</p>"
+          "<p>Develop CMS UI. Create a dashboard with realtime data.</p>",
+        reference: "http://dashboard.wecheer.io/"
       },
       {
         name: "IDEM Lab",
@@ -41,7 +43,8 @@ export const EXPERIENCE_DATA = [
         name: "Hoa Sen Group",
         role: "Full-stack Developer",
         technologies: ["ASP.NET MVC 3", "SCSS", "jQuery"],
-        description: "<p>Develop new website for Ton Hoa Sen Group. </p>"
+        description: "<p>Develop new website for Ton Hoa Sen Group. </p>",
+        reference: "https://www.hoasengroup.vn/"
       },
       {
         name: "Outsource",
@@ -61,7 +64,9 @@ export const EXPERIENCE_DATA = [
         role: "Front-end Developer",
         technologies: ["AnugularJS", "SCSS", "Web RTC", "Socket.io"],
         description:
-          "<p>Develop chat-bot app for a big customer from Japan. End-user can use app for chatting, video call (Web RTC) or make question for robots. (as Skype)</p>"
+          "<p>Develop chat-bot app for Fujitsu Japan. End-user can use app for chatting, video call (Web RTC) or make question for robots. (as Skype)</p>",
+        reference:
+          "https://www.fujitsu.com/global/about/resources/news/press-releases/2016/1017-02.html"
       }
     ]
   }

@@ -11,3 +11,13 @@ ul {
     list-style: none;
   }
 }
+
+a,
+btn {
+  outline: none;
+  &:hover,
+  &:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
