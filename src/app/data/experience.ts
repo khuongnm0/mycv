@@ -6,7 +6,7 @@ export const EXPERIENCE_DATA = [
       {
         name: "The Better Travaller",
         role: "Lead Front-end Team",
-        technologies: ["Angular", "SSR", "PWA", "Google Cloud", "Firebase"],
+        technologies: ["Angular", "SSR", "PWA", "Google Cloud"],
         description:
           "<p>Develop web-app to help people sharing their's travel stories and experiences.</p>",
         reference: "https://travel.ourbetterworld.org/"
@@ -14,7 +14,7 @@ export const EXPERIENCE_DATA = [
       {
         name: "Wecheer.IO",
         role: "Front-end Developer",
-        technologies: ["VueJS", "FeatherJS", "Lavarel"],
+        technologies: ["Angular", "FeatherJS", "Lavarel"],
         description:
           "<p>Develop CMS UI. Create a dashboard with realtime data.</p>",
         reference: "http://dashboard.wecheer.io/"
@@ -22,14 +22,14 @@ export const EXPERIENCE_DATA = [
       {
         name: "IDEM Lab",
         role: "Front-end Developer",
-        technologies: ["HAML,", "Coffeescript", "SASS"],
+        technologies: ["HAML", "Coffeescript", "SASS","Django"],
         description:
           "<p>Build CMS and website for Hotel/Event Management (Singapore).</p>"
       },
       {
         name: "Stadium Mapping",
         role: "Front-end Developer",
-        technologies: ["AngularJS", "FabricJS", "SCSS"],
+        technologies: ["AngularJS", "FabricJS", "SCSS", "Umbraco"],
         description:
           "<p>Build interactive map for ANZ Stadium (Australia), develop modules for facilities/seats management.</p>"
       }

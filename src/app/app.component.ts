@@ -3,7 +3,7 @@ import * as AOS from "aos";
 
 import { MileStone, Skill, About } from "./model";
 
-import { SKILLS_DATA, EXPERIENCE_DATA, ABOUT_DATA, SUMMARY_DATA } from "./data";
+import { SKILLS_DATA, EXPERIENCE_DATA, ABOUT_DATA, SUMMARY_DATA , HOBBIES_DATA} from "./data";
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
   public summaryList: any[];
 
   public aboutList: About[];
+  public hobbieList: any[];
 
   public timelineList: MileStone[];
 
@@ -23,6 +24,7 @@ export class AppComponent implements OnInit {
     this.aboutList = ABOUT_DATA;
     this.timelineList = EXPERIENCE_DATA;
     this.summaryList = SUMMARY_DATA;
+    this.hobbieList = HOBBIES_DATA;
   }
   ngOnInit() {
     AOS.init();

@@ -37,7 +37,7 @@
       Skills
     </h2>
     <div class="row skill-list" *ngIf="skillList && skillList.length > 0">
-      <div class="col-6 col-xl-3 skill-item" *ngFor="let skill of skillList; let i = index" data-aos="fade-up"
+      <div class="col-6 col-xl-3 skill-item" *ngFor="let skill of skillList; let i = index" data-aos="fade-right"
         [attr.data-aos-delay]="300+i*200">
         <p>{{skill.name}}</p>
         <div class="skill-bar-container">
@@ -50,17 +50,19 @@
       </div>
     </div>
 
-    <h2 class="mt-5" data-aos="fade-right" data-aos-delay="300">
+    <!-- </div>
+  <div class="container"> -->
+
+    <h2 class="mt-5" data-aos="fade-right" data-aos-delay="200">
       <i class="fas fa-align-left"></i>
       Summary
     </h2>
     <ul class="mt-3" *ngIf="summaryList && summaryList.length > 0">
-      <li *ngFor="let item of summaryList; let i = index" data-aos="fade-up" [attr.data-aos-delay]="300+i*200">
+      <li class="summary-item" *ngFor="let item of summaryList; let i = index" data-aos="fade-up"
+        [attr.data-aos-delay]="300+i*200">
         <div [innerHTML]="item" *ngIf="item"></div>
       </li>
     </ul>
-
-
   </div>
 </div>
 <div class="section" id="experiences">
@@ -71,7 +73,7 @@
     </h2>
     <div class="timeline-list" *ngIf="timelineList && timelineList.length > 0">
       <div class="timeline-item row" *ngFor="let timeline of timelineList">
-        <div class="timeline-left col-12 col-xl-3" data-aos="fade-right" data-aos-delay="500">
+        <div class="timeline-left col-12 col-xl-3" data-aos="fade-right" data-aos-delay="200">
           <p class="time">
             <span class="badge badge-danger"> {{timeline.time}}</span>
           </p>
@@ -114,41 +116,51 @@
 
 <div class="section" id="about">
   <div class="container">
-    <h2 data-aos="fade-right" data-aos-delay="300">
+    <h2 data-aos="fade-right">
       <i class="fas fa-user-tie"></i>
-      About Me
+      Personal Info
     </h2>
-    <ul class="about-list row mt-3">
-      <li class="col-6 col-xl-3 about-item text-center" *ngFor="let item of aboutList">
+    <ul class="row mt-3">
+      <li class="col-6 col-xl-3 about-item text-center" data-aos="fade-right" *ngFor="let item of aboutList">
         <b class="mr-2 d-none d-sm-inline" *ngIf="item.title">{{item.title}}:</b>
         <span *ngIf="item.value">{{item.value}}</span>
       </li>
-
     </ul>
-    <h2 class="mt-5" data-aos="fade-right" data-aos-delay="300">
+
+    <!-- <h2 class="mt-4" data-aos="fade-right">
+      <i class="fas fa-heart"></i>
+      Hobbies
+    </h2>
+    <ul class="row mt-3">
+      <li class="col-6 col-xl-3 about-item text-center" data-aos="fade-right" *ngFor="let item of hobbieList">
+        <span>{{item}}</span>
+      </li>
+    </ul> -->
+
+    <!-- <h2 class="mt-4" data-aos="fade-right" data-aos-delay="200">
       <i class="fas fa-address-card"></i>
       Contact
-    </h2>
+    </h2> -->
     <ul class="contact-list row mt-3">
-      <li class="col-6 col-xl-3 contact-item">
+      <li class="col-6 col-xl-3 contact-item" data-aos="fade-right" data-aos-delay="300">
         <a href="tel:+84378334899" class="btn btn-danger">
           <i class="fas fa-phone-square-alt"></i>
           <span>Phone</span>
         </a>
       </li>
-      <li class="col-6 col-xl-3 contact-item">
+      <li class="col-6 col-xl-3 contact-item" data-aos="fade-right" data-aos-delay="400">
         <a href="mailto: khuongnm0@gmail.com" target="_blank" class="btn btn-warning">
           <i class="fas fa-envelope"></i>
           <span>Email</span>
         </a>
       </li>
-      <li class="col-6 col-xl-3 contact-item">
+      <li class="col-6 col-xl-3 contact-item" data-aos="fade-right" data-aos-delay="500">
         <a href="https://www.facebook.com/akite.banhmi" target="_blank" class="btn  btn-primary">
           <i class="fab fa-facebook-square"></i>
           <span>Facebook</span>
         </a>
       </li>
-      <li class="col-6 col-xl-3 contact-item">
+      <li class="col-6 col-xl-3 contact-item" data-aos="fade-right" data-aos-delay="600">
         <a href="https://www.linkedin.com/in/khuongnm/" target="_blank" class="btn  btn-secondary">
           <i class="fab fa-linkedin"></i>
           <span>Linkedin</span>
@@ -156,5 +168,16 @@
       </li>
 
     </ul>
+  </div>
+</div>
+
+<div class="section" id='other'>
+  <div class="container text-center">
+    <p>
+      My favourite football team is AC Milan. That why the color theme is only <span class="milan-red">Red</span> and
+      <span class="milan-black">Black</span> :)
+    </p>
+
+    <img class="img-milan" src="/assets/images/acmilan.png" alt="AC Milan Logo">
   </div>
 </div>
